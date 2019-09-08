@@ -11,8 +11,9 @@ import random
 
 pd.set_option('display.max_columns', 100)
 
-## 2016 to 2017 Season is 10/25/16 to 06/12/17
-## 2017 to 2018 Season is 10/17/17 to 6/8/18
+# 2016 to 2017 Season is 10/25/16 to 06/12/17
+# 2017 to 2018 Season is 10/17/17 to 6/8/18
+# Edit the start and end dates to scrape below, dates are inclusive. (i.e. 06/26/2016 to 06/28/2016, includes the 26th, 27th, 28th)
 startDate = '10/25/2016'
 endDate = '6/12/2017'
 
