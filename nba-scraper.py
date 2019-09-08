@@ -104,7 +104,7 @@ for date in dates:
         print(date, "Appended to table successfully")
 
     # Sleep between 5 and 15 seconds
-    t = random.uniform(5.0, 12.0)
+    t = random.uniform(5.0, 15.0)
     print("Sleeping for {} seconds, next page to scrape for {}...".format(t, date))
     time.sleep(t)
 
