@@ -21,8 +21,6 @@ endDate = '10/19/2018'
 dates = pd.date_range(startDate,endDate)
 print(dates)
 
-masterTable = pd.DataFrame()
-
 for date in dates:
     # Iterate through each page
     link = requests.get('https://www.basketball-reference.com/boxscores/?month={}&day={}&year={}'.format(date.month, date.day, date.year))
